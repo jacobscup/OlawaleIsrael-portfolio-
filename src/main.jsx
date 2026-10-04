@@ -176,9 +176,9 @@ function App() {
           </div>
 
           <div>
-            <strong>2+</strong>
-            <span>Blockchain projects</span>
-          </div>
+  <strong>3+</strong>
+  <span>Featured projects</span>
+</div>
 
           <div>
             <strong>EVM</strong>
@@ -369,6 +369,51 @@ function App() {
               <a
                 className="button secondary"
                 href="https://github.com/jacobscup/NexaTech-"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Repository <Github size={15} />
+              </a>
+            </div>
+          </article>
+                    {/* HAVENSTONE */}
+          <article className="project-secondary">
+            <div>
+              <p className="kicker">THIRD PROJECT</p>
+
+              <h3>HavenStone Realty</h3>
+
+              <p>
+                A premium real-estate platform built for property
+                discovery, client enquiries, viewing requests, and
+                property management. The platform includes responsive
+                property listings, search and filtering, favorites,
+                galleries, WhatsApp enquiries, and an admin dashboard.
+              </p>
+
+              <div className="tag-list">
+                <span>React</span>
+                <span>Vite</span>
+                <span>JavaScript</span>
+                <span>React Router</span>
+                <span>LocalStorage</span>
+                <span>Responsive UI</span>
+              </div>
+            </div>
+
+            <div className="project-actions">
+              <a
+                className="button primary"
+                href="https://haven-stone.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live demo <ExternalLink size={15} />
+              </a>
+
+              <a
+                className="button secondary"
+                href="https://github.com/jacobscup/HavenStone"
                 target="_blank"
                 rel="noreferrer"
               >
