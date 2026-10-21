@@ -421,6 +421,51 @@ function App() {
               </a>
             </div>
           </article>
+          {/* SMEFLOW */}
+<article className="project-secondary">
+  <div>
+    <p className="kicker">FOURTH PROJECT</p>
+
+    <h3>SMEFLOW</h3>
+
+    <p>
+      A business management platform designed to help Nigerian
+      SMEs manage their daily operations more efficiently.
+      SMEFLOW focuses on bringing essential business workflows
+      into one place, helping business owners organize their
+      operations and make informed decisions.
+    </p>
+
+    <div className="tag-list">
+      <span>React</span>
+      <span>Vite</span>
+      <span>JavaScript</span>
+      <span>Business Management</span>
+      <span>SaaS</span>
+      <span>Responsive UI</span>
+    </div>
+  </div>
+
+            <div className="project-actions">
+            <a
+              className="button primary"
+              href="https://smeflow-8ray.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live demo <ExternalLink size={15} />
+            </a>
+
+            <a
+              className="button secondary"
+              href="https://github.com/jacobscup/smeflow"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Repository <Github size={15} />
+            </a>
+          </div>
+          </article>
         </section>
 
         {/* SECURITY */}
